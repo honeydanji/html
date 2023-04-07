@@ -1,4 +1,7 @@
+
 * {
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Noto Serif Sinhala', serif;
     margin: 0px;
     padding: 0px;
     border-radius: 15px;
@@ -55,6 +58,11 @@ article {
     /* margin-top: 100px;  */
     padding: 20px;
     width: 80%;
+}
+
+.iconsp {
+    width: 10px;
+    height: 10px;
 }
 
 #block {
