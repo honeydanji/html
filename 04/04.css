@@ -1,0 +1,23 @@
+#s {
+    display: flex;
+    justify-content: space-between
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between
+}
+.c1 {
+    border-radius: 50% ;
+    justify-content: center;
+}
+
+.c2 {
+    border-radius: 50% ;
+}
+
+.d {
+    border-radius: 50% ; 
+}
