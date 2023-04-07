@@ -9,6 +9,7 @@ header {
     position: sticky;
 }
 
+
 nav {
     /* margin: 50px; */
     border-radius: 50px / 15px;
@@ -56,10 +57,10 @@ article {
     width: 80%;
 }
 
-#a1 {
+#block {
     height: 50vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
@@ -98,3 +99,4 @@ ul {
 .c3 li {
     color: rgb(0, 0, 0);
 }
+
