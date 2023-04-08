@@ -1,15 +1,14 @@
-
 #i1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#i2 {
-    border-radius: 50% ;
+.c2 {
+  border-radius: 50%;
 }
 
 #a2 {
-    border-radius: 50% ;
+  border-radius: 50%;
 }
