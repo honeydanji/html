@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+@font-face {
+  font-family: "KCC-Ganpan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#top {
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.greeting {
+  font-family: "Caveat", cursive;
+}
+
+body {
+  font-family: "KCC-Ganpan";
+  padding: 0px;
+  margin: 0px;
+}
+/* 
+#sidebar {
+  width: 200px;
+  max-height: max-content;
+  background-color: rgb(200, 217, 222);
+  float: left;
+} */
+
+/* #center {
+  width: 800px;
+  float: left;
+} */
+
+.p1 {
+  display: flex;
+  justify-content: center; /* 수직 가운데 정렬*/
+  text-align: center; /* 텍스트 가운데 정렬*/
+}
+
+#i1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 수평 가운데 정렬*/
+  justify-content: space-between;
+}
+
+.c1 {
+  background-color: rgb(206, 238, 234);
+}
+
+.c2 {
+  border-radius: 50%;
+}
+
+#a2 {
+  border-radius: 50%;
+}
