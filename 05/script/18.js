@@ -76,4 +76,7 @@ document.addEventListener("DOMContentLoaded", () => { // 해당 부분(document)
 
 
 // 1. html문서에서 class, id, 태그 등 어떠한 유형이든 상관없이 들고와서 변수에 저장해서 사용해야한다.
-// 2. form, input 같은 태그에서 값을 가져올 때는 value로 가져와야한다. 그 외 값들은 textcontent, 
+// 2. form, input 같은 태그에서 값을 가져올 때는 value로 가져와야한다. 그 외 값들은 textcontent,
+// 3. 컴포넌트?
+// 3. getAttribute : 변수에 저장되어 있는 요소를 가져온다.
+// 4.  querySelecto : 컴포넌트(선택자)를 가져와서 변수에 저장한다.
