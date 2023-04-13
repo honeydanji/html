@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 버튼 이벤트 추가
     // reset기능 구현
-    btReset.addEventListener('click', () => {
+    btReset.addEventListener('click', (e) => {
+        e.preventDefault();
         txt1.value ='';
         arr = [];
     })
