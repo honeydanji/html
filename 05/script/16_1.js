@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => { //DOMContentLoaded가 발생하면 펑션 안에 있는 것을 하겠다.
+document.addEventListener("DOMContentLoaded", () => { //DOMContentLoaded가 발생하면 function 안에 있는 것을 하겠다.
     const bt1 = document.querySelector('#bt1'); // html에 있는 bt1을 가져온다.
 
     bt1.addEventListener('click', () => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => { //DOMContentLoaded가 발�
         let use; // user 변수
         const radios = document.querySelectorAll('input[type=radio]'); // 태그를 찾아온다. []를 사용하면 속성값을 찾을 수 있다.
         for (let item of radios) {
-            console.log(item);
+            console.log(item); // 디버깅 역할
             if (item.checked) {
                 user = item.Value; break;
             }
