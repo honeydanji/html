@@ -1,0 +1,20 @@
+.c1 {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    /* width: 500%; */
+    height: 300%;
+}
+
+.c2 {
+    justify-content: center;
+    width: 180px;
+    height: 164px;
+    background-color: rgb(254, 252, 252);
+    border: salmon;
+}
+
+.c1 > div {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+}

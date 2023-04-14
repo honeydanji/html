@@ -26,7 +26,7 @@ const palindrome = (t1, t2) => {
 
     // 결과 확인
     if (t1.value == rs) {
-        t2.value = "회문입니다."    //input 타입의 값을 받기 위해서는 value로 찍어야한다.
+        t2.value = "회문입니다."    //input 타입의 값을 주기 위해서는 value로 찍어야한다.
     }
     else {
         t2.value = "회문이 아닙니다."
