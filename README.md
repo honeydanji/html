@@ -1,5 +1,6 @@
 # K-digital 3기 FrontEnd 수업
 
+- 23.04.17 : 폭탄돌리기(https://honeydanji.github.io/js_project/)
 - 23.04.14 : 폭탄돌리기(미완)
 - 23.04.13 : 배열다루기
 - 23.04.13 : 문자열 다루기/배열 다루기(미완)
